@@ -1,5 +1,6 @@
 package main
 
+
 import (
          "fmt"
          "bufio"
@@ -10,6 +11,7 @@ import (
          "math/rand"
          "time"
 )
+
 
 func main() {
        seconds := time.Now().Unix()
