@@ -23,7 +23,7 @@ func NewUniverse() Universe {
     return u
 }
  
-// Seed заполняет вселенную случайными живыми клетками.
+// Seed заполняет вселенную случайными живыми клетками - 25%.
 func (u Universe) Seed() {
     for i := 0; i < (width * height / 4); i++ {
         u.Set(rand.Intn(width), rand.Intn(height), true)
